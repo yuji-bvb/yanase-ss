@@ -16,7 +16,7 @@ export default function Recruit() {
         </div>
       </div>
       <div className="text-lg sm:text-2xl font-bold flex flex-col items-center p-10">
-        採用は電話またはメールにて承っております。
+        プレス作業員募集中。<br></br> 採用は電話またはメールにて承っております。
       </div>
       <table className="table-fixed border-spacing-48 text-lg sm:text-2xl font-bold flex flex-col items-center justify-between p-5">
         <tbody>
