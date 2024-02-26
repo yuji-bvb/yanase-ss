@@ -16,7 +16,7 @@ export default function Corp() {
         </div>
       </div>
       <div className="grid sm:grid-cols-12 gap-6 max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
+        <div className="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <Image
               className="relative"

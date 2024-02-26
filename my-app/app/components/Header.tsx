@@ -53,16 +53,16 @@ export default function Header() {
             <Link href="/corporate">
               <button
                 type="button"
-                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="w-1/2 py-3 px-4 gap-x-2 text-base sm:text-lg font-semibold rounded-full border border-transparent bg-gray-800 text-white hover:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               >
                 会社概要
               </button>
             </Link>
           </div>
         </div>
-        <div className="relative text-3xl font-bold italic mt-5">連絡先</div>
+        <div className="relative text-3xl font-bold italic mt-10">連絡先</div>
         <div className="mt-6 lg:mt-10">
-          <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+          <p className="pb-1 relative text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
             <span className="relative z-10 italic">
               TEL:{" "}
               <Link
@@ -73,13 +73,13 @@ export default function Header() {
               </Link>
             </span>
           </p>
-          <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+          <p className="relative text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
             <span className="relative z-10 italic text-gray-800 dark:text-gray-800">
               FAX: 042-557-7451
             </span>
           </p>
-          <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
-            <span className="text-base sm:text-xl relative z-10 italic text-gray-800 dark:text-gray-800">
+          <p className="font-medium relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+            <span className="text-xl relative z-10 italic text-gray-800 dark:text-gray-800">
               メールアドレス<br></br>
               <Link
                 className="underline underline-offset-1"
