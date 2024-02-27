@@ -21,7 +21,7 @@ export default function Corp() {
             <Image
               className="relative"
               src="/fac1.jpg"
-              alt="Next.js Logo"
+              alt="簗瀬製作所の看板"
               width={1000}
               height={1000}
               priority
@@ -33,7 +33,7 @@ export default function Corp() {
             <Image
               className="relative"
               src="/fac2.jpg"
-              alt="Next.js Logo"
+              alt="溶接の作業の様子"
               width={1000}
               height={1000}
               priority
@@ -45,7 +45,7 @@ export default function Corp() {
             <Image
               className="relative"
               src="/fac3.jpg"
-              alt="Next.js Logo"
+              alt="プレス作業の様子"
               width={1000}
               height={1000}
               priority
@@ -57,7 +57,7 @@ export default function Corp() {
             <Image
               className="relative"
               src="/fac4.jpg"
-              alt="Next.js Logo"
+              alt="プレス作業の様子"
               width={1000}
               height={1000}
               priority
@@ -69,7 +69,7 @@ export default function Corp() {
             <Image
               className="relative"
               src="/fac5.jpg"
-              alt="Next.js Logo"
+              alt="会社全体の写真"
               width={1000}
               height={1000}
               priority
