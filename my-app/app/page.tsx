@@ -12,7 +12,7 @@ export default function Home() {
       <Image
         className="relative"
         src="/press2.jpg"
-        alt="Next.js Logo"
+        alt="簗瀬製作所のプレス機"
         width={1500}
         height={300}
         priority
