@@ -26,7 +26,7 @@ export default function Table5() {
                     　　　　
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm sm:text-2xl text-gray-800 dark:text-gray-800">
-                    1台
+                    2台
                   </td>
                 </tr>
               </tbody>

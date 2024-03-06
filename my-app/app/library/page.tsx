@@ -10,9 +10,9 @@ export const metadata: Metadata = {
 export default function Corp() {
   return (
     <div>
-      <div className="min-h-[20vh] sm:min-h-[40vh] bg-center bg-cover bg-[url('/bgpress.jpg')] flex place-content-center">
+      <div className="min-h-[20vh] sm:min-h-[40vh] bg-center bg-cover bg-[url('/fac5.jpg')] flex place-content-center">
         <div className="container px-5 place-self-center flex place-content-center text-3xl font-bold italic">
-          ライブラリ
+          <p className="p-1 rounded bg-cyan-200">ライブラリ</p>
         </div>
       </div>
       <div className="grid sm:grid-cols-12 gap-6 max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -70,7 +70,7 @@ export default function Corp() {
               className="relative"
               src="/fac5.jpg"
               alt="会社全体の写真"
-              width={1000}
+              width={2000}
               height={1000}
               priority
             />
