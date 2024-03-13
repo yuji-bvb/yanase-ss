@@ -24,8 +24,8 @@ export default function RootLayout({
         <Navi />
         {children}
         <Footer />
+        <PrelineScript />
       </body>
-      <PrelineScript />
     </html>
   );
 }
