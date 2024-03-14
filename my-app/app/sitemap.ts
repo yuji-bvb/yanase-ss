@@ -3,31 +3,31 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "http://localhost:3000/",
+      url: "https://yanase-seisakusho.netlify.app/",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "http://localhost:3000/corporate",
+      url: "https://yanase-seisakusho.netlify.app/corporate",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "http://localhost:3000/contact",
+      url: "https://yanase-seisakusho.netlify.app/contact",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
     },
     {
-      url: "http://localhost:3000/library",
+      url: "https://yanase-seisakusho.netlify.app/library",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
     },
     {
-      url: "http://localhost:3000/recruit",
+      url: "https://yanase-seisakusho.netlify.app/recruit",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
