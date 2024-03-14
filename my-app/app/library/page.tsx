@@ -22,8 +22,8 @@ export default function Corp() {
               className="relative"
               src="/fac1.jpg"
               alt="簗瀬製作所の看板"
-              width={1000}
-              height={1000}
+              width={300}
+              height={300}
               priority
             />
           </div>
@@ -34,8 +34,8 @@ export default function Corp() {
               className="relative"
               src="/fac2.jpg"
               alt="溶接の作業の様子"
-              width={1000}
-              height={1000}
+              width={300}
+              height={300}
               priority
             />
           </div>
@@ -46,8 +46,8 @@ export default function Corp() {
               className="relative"
               src="/fac3.jpg"
               alt="プレス作業の様子"
-              width={1000}
-              height={1000}
+              width={300}
+              height={300}
               priority
             />
           </div>
@@ -58,20 +58,8 @@ export default function Corp() {
               className="relative"
               src="/fac4.jpg"
               alt="プレス作業の様子"
-              width={1000}
-              height={1000}
-              priority
-            />
-          </div>
-        </div>
-        <div className="col-span-12 sm:col-span-6 md:col-span-4">
-          <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-            <Image
-              className="relative"
-              src="/fac5.jpg"
-              alt="会社全体の写真"
-              width={2000}
-              height={1000}
+              width={300}
+              height={300}
               priority
             />
           </div>
