@@ -8,12 +8,12 @@ import Table5 from "./components/Table5";
 
 export default function Home() {
   return (
-    <div>
+    <div className="md:max-w-7xl md:mx-auto">
       <Image
         className="relative"
         src="/press2.jpg"
         alt="簗瀬製作所のプレス機"
-        width={1500}
+        width={3000}
         height={300}
         priority
       />
