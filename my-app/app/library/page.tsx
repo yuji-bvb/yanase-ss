@@ -15,11 +15,12 @@ export default function Corp() {
           <p className="p-1 rounded bg-cyan-200">ライブラリ</p>
         </div>
       </div>
+
       <div className="grid sm:grid-cols-12 gap-6 max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4">
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <Image
-              className="relative"
+              className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
               src="/fac1.jpg"
               alt="簗瀬製作所の看板"
               width={300}
@@ -28,22 +29,10 @@ export default function Corp() {
             />
           </div>
         </div>
-        <div className="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4">
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <Image
-              className="relative"
-              src="/fac2.jpg"
-              alt="溶接の作業の様子"
-              width={300}
-              height={300}
-              priority
-            />
-          </div>
-        </div>
-        <div className="col-span-12 md:col-span-4">
-          <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
-            <Image
-              className="relative"
+              className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
               src="/fac3.jpg"
               alt="プレス作業の様子"
               width={300}
@@ -55,7 +44,7 @@ export default function Corp() {
         <div className="col-span-12 sm:col-span-6 md:col-span-4">
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <Image
-              className="relative"
+              className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
               src="/fac4.jpg"
               alt="プレス作業の様子"
               width={300}
