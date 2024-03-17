@@ -3,7 +3,7 @@ export default function Table2() {
     <div className="flex flex-col p-5 italic sm:p-30">
       <div className="-m-1.5 overflow-x-auto">
         <div className="p-1.5 min-w-full inline-block align-middle">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden md:max-w-7xl mx-auto">
             <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
               <caption className="py-2 text-center text-sm sm:text-2xl text-gray-800 dark:text-gray-800 font-bold">
                 溶接加工機

@@ -6,7 +6,7 @@ export default function Table1() {
           <div className="relative text-3xl text-center font-bold p-5">
             主要設備
           </div>
-          <div className="overflow-hidden">
+          <div className="overflow-hidden md:max-w-7xl mx-auto">
             <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700 sm:px-20">
               <caption className="py-2 text-center text-sm sm:text-2xl text-gray-800 dark:text-gray-800 font-bold">
                 プレス加工機
