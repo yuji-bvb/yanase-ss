@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Corp() {
   return (
     <div className="">
-      <div className="min-h-[20vh] sm:min-h-[40vh] bg-center bg-cover bg-[url('/bgpress.jpg')] flex place-content-center">
+      <div className="min-h-[20vh] sm:min-h-[30vh] bg-center bg-cover bg-[url('/bgpress.jpg')] flex place-content-center">
         <div className="container px-5 place-self-center flex place-content-center text-3xl font-bold italic">
           会社概要
         </div>

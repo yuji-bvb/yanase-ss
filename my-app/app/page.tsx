@@ -8,15 +8,8 @@ import Table5 from "./components/Table5";
 
 export default function Home() {
   return (
-    <div className="md:max-w-7xl md:mx-auto">
-      <Image
-        className="relative"
-        src="/press2.jpg"
-        alt="簗瀬製作所のプレス機"
-        width={3000}
-        height={300}
-        priority
-      />
+    <div>
+      <div className="min-h-[20vh] sm:min-h-[30vh] bg-center bg-cover bg-[url('/press2.jpg')] flex place-content-center"></div>
       <Header />
       <Table1 />
       <Table2 />
