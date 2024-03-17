@@ -20,43 +20,43 @@ export default function Corp() {
           <tbody>
             <tr>
               <td className="pt-5 pr-2">社名</td>
-              <td className="pt-5">有限会社&nbsp;簗瀬製作所</td>
+              <td className="pt-5 pl-4">有限会社&nbsp;簗瀬製作所</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">代表</td>
-              <td className="pt-5">簗瀬&nbsp;智広</td>
+              <td className="pt-5 pl-4">簗瀬&nbsp;智広</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">資本金</td>
-              <td className="pt-5">300万円</td>
+              <td className="pt-5 pl-4">300万円</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">従業員数</td>
-              <td className="pt-5">9名(2024年1月現在)</td>
+              <td className="pt-5 pl-4">9名(2024年1月現在)</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">事業内容</td>
-              <td className="pt-5">
+              <td className="pt-5 pl-4">
                 プレス加工による自動車部品等の製造及び溶接加工
               </td>
             </tr>
             <tr>
-              <td className="pt-5 pr-2">主要取引先</td>
-              <td className="pt-5">
+              <td className="pt-5">主要取引先　　</td>
+              <td className="pt-5 pl-4">
                 清水工業(株)&nbsp;(株)赤池工業&nbsp;青木電器工業(株)&nbsp;他5社
               </td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">設立</td>
-              <td className="pt-5">1973年7月20日</td>
+              <td className="pt-5 pl-4">1973年7月20日</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">所在地</td>
-              <td className="pt-5">東京都西多摩郡瑞穂町長岡2丁目7-12</td>
+              <td className="pt-5 pl-4">東京都西多摩郡瑞穂町長岡2丁目7-12</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">TEL：</td>
-              <td className="pt-5">
+              <td className="pt-5 pl-4">
                 <Link
                   className="underline underline-offset-1"
                   href="tel:0425577450"
@@ -67,11 +67,11 @@ export default function Corp() {
             </tr>
             <tr>
               <td className="pt-5 pr-2">FAX：</td>
-              <td className="pt-5">042-557-7451</td>
+              <td className="pt-5 pl-4">042-557-7451</td>
             </tr>
             <tr>
               <td className="pt-5 pr-2">Email：</td>
-              <td className="pt-5">
+              <td className="pt-5 pl-4">
                 <Link
                   className="underline underline-offset-1"
                   href="mailto:yanase-s.s@k6.dion.ne.jp"
