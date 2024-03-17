@@ -5,7 +5,7 @@ export default function Header() {
     <div className="relative max-w-[85rem] px-10 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <blockquote className="text-center lg:mx-auto lg:w-3/5">
         <div className="relative text-3xl font-bold italic">私たちについて</div>
-        <div className="mt-6 lg:mt-10">
+        <div className="mt-6 lg:mt-10 md:mx-5">
           <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
             <svg
               className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 h-16 w-16 text-gray-300 sm:h-24 sm:w-24 dark:text-gray-300"
@@ -29,7 +29,7 @@ export default function Header() {
           </p>
         </div>
         <div className="relative text-3xl font-bold italic mt-10">事業内容</div>
-        <div className="mt-6 lg:mt-10">
+        <div className="mt-6 lg:mt-10 md:mx-5">
           <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
             <svg
               className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 h-16 w-16 text-gray-300 sm:h-24 sm:w-24 dark:text-gray-300"
