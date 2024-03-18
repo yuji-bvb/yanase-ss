@@ -10,13 +10,13 @@ export const metadata: Metadata = {
 export default function Corp() {
   return (
     <div className="">
-      <div className="min-h-[20vh] sm:min-h-[30vh] bg-center bg-cover bg-[url('/bgpress.jpg')] flex place-content-center">
+      <div className="min-h-[20vh] sm:min-h-[30vh] bg-center bg-cover bg-[url('/bgpress.avif')] flex place-content-center">
         <div className="container px-5 place-self-center flex place-content-center text-3xl font-bold italic">
           会社概要
         </div>
       </div>
       <div>
-        <table className="table-fixed border-spacing-48 text-base sm:text-2xl font-bold flex flex-col items-center justify-between p-5">
+        <table className="table-fixed border-spacing-48 text-base sm:text-2xl font-bold flex flex-col items-center justify-between p-4">
           <tbody>
             <tr>
               <td className="pt-5">社名</td>
@@ -41,7 +41,10 @@ export default function Corp() {
               </td>
             </tr>
             <tr>
-              <td className="pt-5">主要取引先</td>
+              <td className="pt-5">
+                主要取引先
+                <br />
+              </td>
               <td className="pt-5 pl-4">
                 清水工業(株)&nbsp;(株)赤池工業&nbsp;青木電器工業(株)&nbsp;他5社
               </td>

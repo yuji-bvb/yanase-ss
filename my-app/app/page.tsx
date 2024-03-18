@@ -9,7 +9,7 @@ import Table5 from "./components/Table5";
 export default function Home() {
   return (
     <div>
-      <div className="min-h-[20vh] sm:min-h-[30vh] bg-center bg-cover bg-[url('/press2.jpg')] flex place-content-center"></div>
+      <div className="min-h-[20vh] sm:min-h-[30vh] bg-center bg-cover bg-[url('/press2.avif')] flex place-content-center"></div>
       <Header />
       <Table1 />
       <Table2 />
