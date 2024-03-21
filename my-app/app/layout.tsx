@@ -13,6 +13,7 @@ const description =
 const url = "https://yanase-seisakusho.com/";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://yanase-seisakusho.com"),
   title: {
     default: siteName,
     template: `%s - ${siteName}`,
