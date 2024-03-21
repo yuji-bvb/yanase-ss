@@ -21,7 +21,7 @@ export default function Corp() {
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <img
               className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-              src="/fac1.jpg"
+              src="/fac1.avif"
               alt="簗瀬製作所の看板"
             />
           </div>
@@ -30,7 +30,7 @@ export default function Corp() {
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <img
               className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-              src="/fac3.jpg"
+              src="/fac3.avif"
               alt="プレス作業の様子"
             />
           </div>
@@ -39,7 +39,7 @@ export default function Corp() {
           <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
             <img
               className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-              src="/fac4.jpg"
+              src="/fac4.avif"
               alt="プレス作業の様子"
             />
           </div>
