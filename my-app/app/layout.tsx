@@ -19,14 +19,6 @@ export const metadata: Metadata = {
     template: `%s - ${siteName}`,
   },
   description,
-  openGraph: {
-    title: siteName,
-    description,
-    url,
-    siteName,
-    locale: "ja_JP",
-    type: "website",
-  },
   verification: {
     google:
       "google-site-verification=0sTZZXgYlBKNKGvHcYgzIh8bCzhrsXWoh_dwbOeUXpA",
