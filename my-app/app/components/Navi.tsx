@@ -40,6 +40,9 @@ export default function NavBar() {
             <div className="md:hidden flex items-center">
               <button
                 className="inline-flex items-center justify-center p-2 rounded-md"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
                 onClick={toggleNavbar}
               >
                 {isClick ? (
