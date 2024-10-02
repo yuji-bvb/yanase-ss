@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const siteName = "簗瀬製作所";
 const description =
-  "簗瀬製作所の公式ホームページです。プレス加工による自動車部品等の製造及び溶接加工を行っています。";
+  "プレス加工による自動車部品等の製造及び溶接加工を行っています。お仕事の依頼も受け付けております。";
 const url = "https://yanase-seisakusho.com";
 
 export const metadata: Metadata = {
@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     template: `%s - ${siteName}`,
   },
   description,
+  openGraph: {
+    title: siteName,
+    description,
+    url,
+    siteName,
+    locale: "ja_JP",
+    type: "website",
+  },
   verification: {
     google:
       "google-site-verification=0sTZZXgYlBKNKGvHcYgzIh8bCzhrsXWoh_dwbOeUXpA",
