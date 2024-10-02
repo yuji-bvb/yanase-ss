@@ -4,7 +4,18 @@ export default function Header() {
   return (
     <div className="relative max-w-[85rem] px-10 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <blockquote className="text-center lg:mx-auto lg:w-3/5">
-        <div className="relative text-3xl font-bold italic">私たちについて</div>
+        <div
+          className="text-left mt-2 bg-gray-300 text-sm rounded-lg p-4"
+          role="alert"
+          aria-labelledby="hs-solid-color-info-label"
+        >
+          <div className="relative text-2xl font-bold">
+            金属プレス加工及びスポット溶接、半自動溶接のお仕事の依頼・相談を受け付けております。下記ご連絡先までお問い合わせください。
+          </div>
+        </div>
+        <div className="relative mt-6 text-3xl font-bold italic">
+          私たちについて
+        </div>
         <div className="mt-6 lg:mt-10 md:mx-5">
           <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
             <svg
